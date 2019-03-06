@@ -17,7 +17,7 @@ You will need to change the following variables:
 Have a slack token saved in a file `./slack_token`
 > Note: This is an ignored file to save you from checking in your token!
 
-To generate a token you need to be logged into your team slack in the browser and then go to: `https://api.slack.com/custom-integrations/legacy-tokens`
+To generate a token you need to be logged into your team slack in the browser and then go to https://api.slack.com/custom-integrations/legacy-tokens
 
 TODO:
 * make it command line program with defaults
