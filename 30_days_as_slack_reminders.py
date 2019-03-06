@@ -38,7 +38,7 @@ def post_new_reminder_to_slack(task):
     ('time', "{} at {}".format(REMINDER_DATE.strftime('%B %-d %Y'), reminder_time_of_day))
   ]
   r = requests.post(url, params=parameters, headers=headers)
-  if(r.status_code == requests.status_codes.codes.OK):
+  if(r.json()['ok']):
     print("SUCCESS: '{}' set for {}".format(parameters[1][1], parameters[2][1]))
   else:
     print("FAILURE: Tried to post the following URL ::: {}".format(r.url))
