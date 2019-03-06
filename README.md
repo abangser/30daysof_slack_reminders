@@ -9,7 +9,7 @@ If you would like to create reminders for [#30daysoftesting](https://twitter.com
 ## Prerequisits
 
 You will need to change the following variables:
-* `reminder_start_date` - default: Tomorrow
+* `reminder_start_date` - 
 * `reminder_time_of_day` - default: 11am
 * `skip_weekend_days` - default: False
 * `task_list_file` - default: `testability`
@@ -22,3 +22,4 @@ To generate a token you need to be logged into your team slack in the browser an
 TODO:
 * make it command line program with defaults
 * allow for other channels for reminders
+* make tomorrow the default start date

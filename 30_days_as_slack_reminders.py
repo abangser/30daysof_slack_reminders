@@ -3,7 +3,7 @@ import os
 import requests
 import time
 
-reminder_start_date = datetime.date(2017, 3, 1) # year, month, day
+reminder_start_date = datetime.date(2019, 3, 1) # year, month, day
 reminder_time_of_day = "11:00am"
 skip_weekend_days = False
 task_list_file = 'testability'
